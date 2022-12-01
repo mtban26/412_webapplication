@@ -11,9 +11,12 @@ function setPlayers(){
         head4.innerText = "State: " + myText;
         res2.innerText = "Number of Players Born in " + myText + ": " + HIplayers;
     }
-    else {
+    else if (myText === "Tenn") {
         head4.innerText = "State: Tennessee";
         res2.innerText = "Number of Players Born in Tennessee" + ": " + TNplayers;
+    }
+    else {
+        head4.innerText = "Invalid Input for a US State";
     }
 
 }
