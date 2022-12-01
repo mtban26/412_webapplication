@@ -1,0 +1,39 @@
+.state {
+    fill:#16a085
+}
+.borders {
+    stroke:#FFFFFF;
+    stroke-width:1
+}
+.dccircle {
+    display:yes
+}
+.separator1 {
+    stroke:#B0B0B0;
+    stroke-width:2
+}
+
+path:hover, circle:hover {
+    stroke: #29f1c3;
+    stroke-width:2px;
+    stroke-linejoin: round;
+    fill: #29f1c3;
+    cursor: pointer;
+}
+
+#info-box {
+    display: block;
+    position: relative;
+    width:500px;
+    height:700px;
+    top: -650px;
+    left: 1000px;
+    z-index: 1;
+    background-color: #ffffff;
+    border: 2px solid #BF0A30;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: arial;
+    font-size: 36px;
+    text-align: left;
+}
